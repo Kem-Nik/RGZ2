@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+    {% block script %} {% endblock %}
+</head>
+<body>
+    <header>
+        {% if session.get('logged_in') %}
+            <a href="{{ url_for('logout') }}">Выйти</a>
+        {% else %}
+            <a href="{{ url_for('login') }}">Войти</a>
+        {% endif %}
+        <a href="{{ url_for('employees') }}"> Список сотрудников </a>
+    </header>
+    <main>
+        {% block main %}{% endblock %}
+    </main>
+    <footer>
+        &copy; Кем Никита Алексеевич, ФБИ-22, 3 курс, 2024 год
+    </footer>
+</body>
+</html>

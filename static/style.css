@@ -1,0 +1,173 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #303644;  
+    color: #9f8835;  
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #9f8835;  
+    color: #303644; 
+    padding: 10px 20px;
+    text-align: right;
+}
+
+header a {
+    color: #303644; 
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #9f8835;  
+    color: #303644;  
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+.zag{
+    text-align: center;
+    font-size: 30pt;
+    margin: 100px auto;
+}
+
+a {
+    color: #9f8835;  
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+form input, form select, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #9f8835;  
+    background-color: #303644;  
+    color: #9f8835; 
+}
+
+form button {
+    background-color: #9f8835;  
+    color: #303644; 
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #303644; 
+    color: #9f8835;  
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    border: 1px solid #9f8835;  
+    padding: 10px;
+    text-align: left;
+}
+
+table tr:nth-child(even) {
+    background-color: #3a4150;  
+}
+
+table tr:hover {
+    background-color: #4a5263;  
+}
+
+th{
+    background-color: #9f8835;  
+}
+th a{
+    color: #3a4150;  
+}
+
+.pagination a {
+    margin: 0 5px;
+    padding: 5px 10px;
+    background-color: #9f8835;  
+    color: #303644;  
+    border: 1px solid #9f8835; 
+}
+
+.pagination a:hover {
+    background-color: #303644;  
+    color: #9f8835;  
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons button, .buttons a {
+    padding: 10px 20px;
+    background-color: #9f8835; 
+    color: #303644;  
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.buttons button:hover, .buttons a:hover {
+    background-color: #303644;  
+    color: #9f8835;  
+}
+
+.search-form {
+    margin-bottom: 20px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #9f8835;  
+    background-color: #303644;  
+    color: #9f8835;  
+}
+
+.checkbox-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.sort-group label {
+    margin: 20px;
+}
+
+.clear-filter {
+    display: inline-block;
+    margin-left: 10px;
+    color: #9f8835;
+}
+
+.clear-filter:hover {
+    text-decoration: underline;
+}
